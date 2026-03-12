@@ -22,86 +22,12 @@ h1,h2,h3 { font-family: 'Playfair Display', serif; }
 .header .navbar a { margin: 0 15px; color: #fff; font-weight:500; }
 .header .btn { background-color: var(--accent-color); color: var(--primary-color); padding:8px 15px; border-radius: var(--btn-radius); }
 
-.hero {
-  position: relative;
-  height: 90vh;
-  width: 100%;
-  overflow: hidden;
-}
-
-.hero-image {
-  width: 100%;
-  height: 100%;
-  object-fit: cover;
-}
-
-/* aesthetic card */
-
-.hero-text {
-  position: absolute;
-  bottom: 60px;
-  left: 50%;
-  transform: translateX(-50%);
-  text-align: center;
-  background: rgba(255,255,255,0.85);
-  padding: 40px 60px;
-  border-radius: 14px;
-  backdrop-filter: blur(8px);
-  max-width: 600px;
-}
-
-/* title */
-
-.hero-text h1 {
-  font-family: "Playfair Display", serif;
-  font-size: 3.5rem;
-  color: #111;
-  margin-bottom: 10px;
-}
-
-/* tagline */
-
-.hero-text p {
-  font-family: "Poppins", sans-serif;
-  color: #444;
-  font-size: 1.2rem;
-  margin-bottom: 25px;
-}
-
-/* buttons */
-
-.hero-buttons {
-  display: flex;
-  gap: 15px;
-  justify-content: center;
-}
-
-.btn-primary {
-  background: #0b1d3a;
-  color: white;
-  padding: 12px 28px;
-  border-radius: 30px;
-  text-decoration: none;
-  font-weight: 500;
-}
-
-.btn-primary:hover {
-  background: #1c3d75;
-}
-
-.btn-secondary {
-  border: 2px solid #0b1d3a;
-  color: #0b1d3a;
-  padding: 12px 28px;
-  border-radius: 30px;
-  text-decoration: none;
-  font-weight: 500;
-}
-
-.btn-secondary:hover {
-  background: #0b1d3a;
-  color: white;
-}
+/* Hero */
+• home { position: relative; }
+• hero-slider img {width:100%; height:70vh; object-fit:cover; }
+• hero-text {position: absolute; top:50%; left:50%; transform: translate(-50%, -50%); color: #111; text-align:center; }
+• hero-text h1 { font-size:3rem; margin-bottom:15px; } . hero-text p{font-size:1.2rem; margin-bottom:20px; }
+•hero-text .btn-primary { background-color: var(--accent-color); color: var(--primary-color); }
 
 /* Sections */
 .section-title { text-align:center; font-size:2rem; margin:40px 0; color: var(--primary-color); }
