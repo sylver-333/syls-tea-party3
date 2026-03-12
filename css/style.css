@@ -23,11 +23,12 @@ h1,h2,h3 { font-family: 'Playfair Display', serif; }
 .header .btn { background-color: var(--accent-color); color: var(--primary-color); padding:8px 15px; border-radius: var(--btn-radius); }
 
 /* Hero */
-• home { position: relative; }
-• hero-slider img {width:100%; height:70vh; object-fit:cover; }
-• hero-text {position: absolute; top:50%; left:50%; transform: translate(-50%, -50%); color: #111; text-align:center; }
-• hero-text h1 { font-size:3rem; margin-bottom:15px; } . hero-text p{font-size:1.2rem; margin-bottom:20px; }
-•hero-text .btn-primary { background-color: var(--accent-color); color: var(--primary-color); }
+.home { position:relative; }
+.hero-slider img { width:100%; height:70vh; object-fit:cover; }
+.hero-text { position:absolute; top:50%; left:50%; transform:translate(-50%, -50%); color:#fff; text-align:center; }
+.hero-text h1 { font-size:3rem; margin-bottom:15px; }
+.hero-text p { font-size:1.2rem; margin-bottom:20px; }
+.hero-text .btn-primary { background-color: var(--accent-color); color: var(--primary-color); }
 
 /* Sections */
 .section-title { text-align:center; font-size:2rem; margin:40px 0; color: var(--primary-color); }
